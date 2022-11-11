@@ -69,20 +69,20 @@ We'll review a few studies that chart the development of human pose estimation i
 
 ### Architecture Overview
 
-![Untitled](Human-Pose%20Estimation%20a98b239327d74cb48168a6c2ef3a6dd9/Untitled%202.png)
+![Untitled](https://github.com/ayushabrol13/Human-Pose-Estimation/raw/master/Human-Pose%20Estimation%20a98b239327d74cb48168a6c2ef3a6dd9/Untitled%202.png)
 
 The model outputs the 2D positions of key points for each individual in the image after receiving as input a color image of size w*h. Three stages are involved in the detecting process:
 
 1. **Stage 0:** The first 10 layers of the VGGNet are used to create feature maps for the input image.
 2. ******************Stage 1:****************** A 2-branch multi-stage CNN is used where the first branch predicts a set of 2D confidence maps (S) of body part locations (e.g. elbow, knee, etc.).
     
-    ![     Showing confidence maps for the Left Shoulder for the given image](Human-Pose%20Estimation%20a98b239327d74cb48168a6c2ef3a6dd9/Untitled%203.png)
+    ![     Showing confidence maps for the Left Shoulder for the given image](https://github.com/ayushabrol13/Human-Pose-Estimation/raw/master/Human-Pose%20Estimation%20a98b239327d74cb48168a6c2ef3a6dd9/Untitled%203.png)
     
          Showing confidence maps for the Left Shoulder for the given image
     
 3. ******************Stage 3:****************** The confidence and affinity maps are parsed by greedy inference to produce the 2D key points for all people in the image.
     
-    ![Showing Part Affinity maps for Neck – Left Shoulder pair for the given image](Human-Pose%20Estimation%20a98b239327d74cb48168a6c2ef3a6dd9/Untitled%204.png)
+    ![Showing Part Affinity maps for Neck – Left Shoulder pair for the given image](https://github.com/ayushabrol13/Human-Pose-Estimation/raw/master/Human-Pose%20Estimation%20a98b239327d74cb48168a6c2ef3a6dd9/Untitled%204.png)
     
     Showing Part Affinity maps for Neck – Left Shoulder pair for the given image
     
@@ -104,11 +104,11 @@ Demonstration of the human pose estimator on a webcam.
 
 Our Human Pose estimator will work for a .png **image**, mp4 **video file,** and even for the real-time **webcam**.
 
-![Untitled](Human-Pose%20Estimation%20a98b239327d74cb48168a6c2ef3a6dd9/Untitled%205.png)
+![Untitled](https://github.com/ayushabrol13/Human-Pose-Estimation/raw/master/Human-Pose%20Estimation%20a98b239327d74cb48168a6c2ef3a6dd9/Untitled%205.png)
 
-![Untitled](Human-Pose%20Estimation%20a98b239327d74cb48168a6c2ef3a6dd9/Untitled%206.png)
+![Untitled](https://github.com/ayushabrol13/Human-Pose-Estimation/raw/master/Human-Pose%20Estimation%20a98b239327d74cb48168a6c2ef3a6dd9/Untitled%206.png)
 
-![Untitled](Human-Pose%20Estimation%20a98b239327d74cb48168a6c2ef3a6dd9/Untitled%207.png)
+![Untitled](https://github.com/ayushabrol13/Human-Pose-Estimation/raw/master/Human-Pose%20Estimation%20a98b239327d74cb48168a6c2ef3a6dd9/Untitled%207.png)
 
 ## The web version of the model
 
@@ -158,13 +158,13 @@ Commonly used to find the shortest path, the A* algorithm is a smart search algo
 
 A* Search algorithms, unlike other traversal techniques, it has “brains”. What it means is that it is really a smart algorithm that separates it from the other conventional algorithms.
 
-![Untitled](Human-Pose%20Estimation%20a98b239327d74cb48168a6c2ef3a6dd9/Untitled%208.png)
+![Untitled](https://github.com/ayushabrol13/Human-Pose-Estimation/raw/master/Human-Pose%20Estimation%20a98b239327d74cb48168a6c2ef3a6dd9/Untitled%208.png)
 
  
 
 Pseudo-code for the algorithm.
 
-![Untitled](Human-Pose%20Estimation%20a98b239327d74cb48168a6c2ef3a6dd9/Untitled%209.png)
+![Untitled](https://github.com/ayushabrol13/Human-Pose-Estimation/raw/master/Human-Pose%20Estimation%20a98b239327d74cb48168a6c2ef3a6dd9/Untitled%209.png)
 
 **Heuristics**
 
@@ -174,15 +174,15 @@ Pseudo-code for the algorithm.
 
 1. **Manhattan Distance**
 
-![Untitled](Human-Pose%20Estimation%20a98b239327d74cb48168a6c2ef3a6dd9/Untitled%2010.png)
+![Untitled](https://github.com/ayushabrol13/Human-Pose-Estimation/raw/master/Human-Pose%20Estimation%20a98b239327d74cb48168a6c2ef3a6dd9/Untitled%2010.png)
 
 1. **Diagonal Distance**
 
-![Untitled](Human-Pose%20Estimation%20a98b239327d74cb48168a6c2ef3a6dd9/Untitled%2011.png)
+![Untitled](https://github.com/ayushabrol13/Human-Pose-Estimation/raw/master/Human-Pose%20Estimation%20a98b239327d74cb48168a6c2ef3a6dd9/Untitled%2011.png)
 
 1. **Euclidean Distance**
 
-![Untitled](Human-Pose%20Estimation%20a98b239327d74cb48168a6c2ef3a6dd9/Untitled%2012.png)
+![Untitled](https://github.com/ayushabrol13/Human-Pose-Estimation/raw/master/Human-Pose%20Estimation%20a98b239327d74cb48168a6c2ef3a6dd9/Untitled%2012.png)
 
 ## Conclusion
 
