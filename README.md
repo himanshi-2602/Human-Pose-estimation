@@ -11,7 +11,7 @@ Human Pose Estimation is defined as the problem of localization of human joints 
 
 To analyze strong articulations, small and barely visible joints, and occlusions, and fight the challenge of clothing and lighting changes. 
 
-![Sample Skeleton output of pose](Human-Pose%20Estimation%20a98b239327d74cb48168a6c2ef3a6dd9/Untitled.png)
+![Sample Skeleton output of pose](https://github.com/ayushabrol13/Human-Pose-Estimation/raw/master/Human-Pose%20Estimation%20a98b239327d74cb48168a6c2ef3a6dd9/Untitled.png)
 
 Sample Skeleton output of pose
 
@@ -44,7 +44,7 @@ We'll review a few studies that chart the development of human pose estimation i
 - This approach even works for a pose in a *holistic fashion,* i.e even if certain joints are hidden, they can be estimated if the pose is reasoned about holistically.
 - The model consisted of an AlexNet backend (7 layers) with an extra final layer that outputs 2k joint coordinates - (xi,yi)∗2(xi,yi)∗2 for i∈{1,2…k}i∈{1,2…k} (where kk is the number of joints). The model is trained using an L2 loss for regression.
 
-![Untitled](Human-Pose%20Estimation%20a98b239327d74cb48168a6c2ef3a6dd9/Untitled%201.png)
+![Untitled](https://github.com/ayushabrol13/Human-Pose-Estimation/raw/master/Human-Pose%20Estimation%20a98b239327d74cb48168a6c2ef3a6dd9/Untitled%201.png)
 
 - Regressing to XY locations is difficult and adds learning complexity which weakens generalization and hence performs poorly in certain regions.
 
