@@ -1,6 +1,6 @@
 # Human-Pose Estimation
 
-Anjali Agarwal (B20AI051), Himanshi (B20AI012), Ayush Abrol(B20AI052)
+
 
 > **Abstract** – *This paper reports our experience with building a Human Pose Estimator. Our approach is based on Deep Learning and motivated by a paper titled [Multi-Person Pose Estimation](https://arxiv.org/pdf/1611.08050.pdf) by the Perceptual Computing Lab at Carnegie Mellon University. We have used the OpenCV DNN model and modified it to implement Tensorflow MobileNet Model and trained on the COCO dataset.*
 > 
